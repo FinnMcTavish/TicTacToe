@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+    <p id="print"></p>
+    <button id="AI" onclick="myfunc(); aifunc();">
+        AI
+    </button>
+    <button id="two" onclick="myfunc();">
+        2 Player
+    </button>
+        <!-- 3*3 grid of Boxes -->
+        <div id="grid">
+        <input type="text" id="b1" onclick=
+            "myfunc_3(); myfunc(); b1_aicheck();" readonly>
+  
+        <input type="text" id="b2" onclick=
+            "myfunc_4(); myfunc(); b2_aicheck();" readonly>
+  
+        <input type="text" id="b3" onclick=
+            "myfunc_5(); myfunc(); b3_aicheck();" readonly>
+        <br><br>
+  
+        <input type="text" id="b4" onclick=
+            "myfunc_6(); myfunc(); b4_aicheck();" readonly>
+              
+        <input type="text" id="b5" onclick=
+            "myfunc_7(); myfunc(); b5_aicheck();" readonly>
+  
+        <input type="text" id="b6" onclick=
+            "myfunc_8(); myfunc(); b6_aicheck();" readonly>
+        <br><br>
+  
+        <input type="text" id="b7" onclick=
+            "myfunc_9(); myfunc(); b7_aicheck();" readonly>
+  
+        <input type="text" id="b8" onclick=
+            "myfunc_10();myfunc(); b8_aicheck();" readonly>
+  
+        <input type="text" id="b9" onclick=
+            "myfunc_11();myfunc(); b9_aicheck();" readonly>
+            
+        </div>
+  
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+  
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+    <script src="./app.js"></script>
+</body>
+</html>
